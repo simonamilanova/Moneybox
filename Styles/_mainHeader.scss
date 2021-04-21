@@ -1,0 +1,56 @@
+.main-header {
+    width: 100%;
+    height: 65px;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+
+    #logoImg {
+        width: 15%;
+        margin-left: 40px;
+        margin-top: 5px;
+    }
+
+    #menuIcon {
+        margin-top: 15px;
+        visibility: hidden;
+        float: right;
+    }
+
+    .nav-links {
+        display: block;
+        float: right;
+        margin-top: 15px;
+        .nav-link {
+            display: inline;
+            padding: 10px 30px;
+            text-decoration: none;  
+
+            & a {
+                text-decoration: none;
+                color: $text-color;
+            }
+
+        }
+
+        a:hover {
+            color: $btn-background-color;
+        }
+    } 
+
+
+    #getStarted {
+        height: 37px;
+        width: 100px;
+        @include btnGetStarted; 
+    }
+
+    &.scrolled {
+        background-color: rgba($text-color-for-scroll, 0.9);
+    }
+
+   
+}
+
+
+

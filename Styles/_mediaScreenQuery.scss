@@ -1,0 +1,26 @@
+@media screen and (max-width: 400px){
+    section h3 {
+        font-size: 0.6rem;
+    }
+    div.boxOne p, div.boxTwo p, div.boxThree p, div.boxFour p {
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 610px) {
+
+    body #menuIcon {
+       visibility: visible !important;
+    }
+
+    body #logoImg {
+        width: 140px !important;
+    }
+    .getStarted {
+        visibility: hidden;
+    }
+
+    .nav-link {
+        visibility: hidden;
+    }
+}

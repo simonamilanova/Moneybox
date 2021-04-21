@@ -1,0 +1,74 @@
+@mixin btnGetStarted {
+    background: $btn-background-color;
+    border: none;
+    border-radius: 5px;
+    color: $text-color;
+
+    &:hover {
+        color: whitesmoke;
+        background: rgba($btn-background-color, 0.7);
+    }
+}
+
+@mixin headerOne {
+    padding-left: 5px;
+    letter-spacing: 2px;
+    font-size: 1.6rem;
+    color: $text-color;
+}
+
+@mixin paragraphInContainer {
+    padding: 5px;
+    margin-top: 15px;
+}
+
+@mixin boxTypeOne {
+    margin: 20px;
+    display: inline-block;
+    width: 35%;
+    background-color: whitesmoke;
+    color: $text-color;
+}
+
+@mixin container {
+    display: block;
+    background-color: $background-color-features;
+    width: 100%;
+}
+
+@mixin pricePlanBox {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: white;
+    width: 20%;
+    margin-left: 100px;
+}
+
+@mixin paragraphInCapitalLetters {
+    color: $text-color;
+    font-size: 0.9rem;
+    padding-top: 5px;
+}
+
+@mixin contentInPlanPricing {
+    padding-top: 10px;
+    line-height: 50px;
+}
+
+@mixin btnInPricingPlans {
+    padding-top: 5px;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+@mixin pricing {
+    font-size: 2rem;
+    padding-top: 5px;
+    color: #1a1a1a;
+    font-weight: bold;
+}

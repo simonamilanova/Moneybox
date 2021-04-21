@@ -1,0 +1,498 @@
+@import "variables";
+@import "mixins";
+@import "mediaScreenQuery";
+@import "mainHeader";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: $btn-background-color;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+
+    &:hover {
+        background-color: rgb(68, 68, 68);
+    }
+}
+
+.container-one {
+    display: block;
+    width: 100%;
+    .textIntro {
+        display: block;
+        width: 45%;
+        margin-top: 100px;
+        margin-left: 30%;
+
+        & h1 {
+            letter-spacing: 1px;
+            padding: 15px;
+            margin: 5px;
+            font-size: 2rem;
+            color: $text-color;
+        }
+
+        & p {
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+            padding: 5px;
+            margin-left: 90px;
+            color: $text-color;
+        }
+    }
+
+    .checkboxes {
+        display: block;
+        width: 60%;
+        margin-top: 40px;
+        margin-left: 25%;
+
+        .inputs {
+            display: inline-block;
+            background-color: $inputs-background-color;
+            width: 210px;
+            height: 40px;
+            margin: 8px;
+            border-radius: 10px;
+
+            & input {
+                margin-top: 10px;
+                margin-left: 8px;
+            }
+            & label {
+               margin-top: 40px;
+            }
+        }
+    }
+
+    .btnGetStarted {
+        width: 150px;
+        height: 50px;
+        letter-spacing: 2px;
+        margin-left: 45%;
+        margin-top: 50px;
+        font-size: 0.9rem;
+        @include btnGetStarted
+        
+    }
+
+    #pictureHero {
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+.container-two {
+    @include container;
+
+    .headerAndParagraph {
+        display: block;
+        width: 50%;
+        margin-left: 95px;
+
+        & h1 {
+            padding-top: 30px;
+            @include headerOne;
+        }
+
+        & p {
+            @include paragraphInContainer;
+        }
+
+    }
+
+    #featurePic {
+        width: 30%;
+        float: right;
+    }
+
+    .boxes {
+        display: block;
+        width: 70%;
+        margin-top: 50px;
+        margin-left: 80px;
+
+        .boxOne {
+            @include boxTypeOne;
+
+            & h3{
+                padding: 10px;
+            }
+        
+            & p{
+                padding: 10px;
+            }
+        }
+
+        .boxTwo {
+            @include boxTypeOne;
+
+            & h3{
+                padding: 10px;
+            }
+        
+            & p{
+                padding: 10px;
+            }
+        }
+
+        .boxThree {
+            @include boxTypeOne;
+            & h3{
+                padding: 10px;
+            }
+        
+            & p{
+                padding: 10px;
+            }
+        }
+
+        .boxFour {
+            @include boxTypeOne;
+            & h3{
+                padding: 10px;
+            }
+        
+            & p{
+                padding: 10px;
+            }
+        }
+
+        & button {
+            float: right;
+            margin-right: 5px;
+            margin-top: 10px;
+            border: none;
+            background-color: whitesmoke;
+            width: 30px;
+            cursor: pointer;
+        }
+
+    }
+}
+
+.container-three {
+    @include container;
+
+    .headerAndParagraphThree {
+        display: block;
+        width: 55%;
+        margin-left: 41%;
+        padding-top: 180px;
+
+        & h1 {
+           @include headerOne;
+        }
+
+        & p {
+            @include paragraphInContainer;
+        }
+    }
+
+    #featureTwoPic {
+        width: 30%;
+        float: left;
+        margin-top: 200px;
+    }
+
+    .boxes {
+        display: block;
+        width: 60%;
+        margin-left: 40%;
+        margin-top: 50px;
+
+
+        .boxOne {
+            @include boxTypeOne;
+
+            & h3{
+                padding: 10px;
+            }
+        
+            & p{
+                padding: 10px;
+            }
+        }
+
+        .boxTwo {
+            @include boxTypeOne;
+
+            & h3{
+                padding: 10px;
+            }
+        
+            & p{
+                padding: 10px;
+            }
+        }
+
+        .boxThree {
+            @include boxTypeOne;
+            & h3{
+                padding: 10px;
+            }
+        
+            & p{
+                padding: 10px;
+            }
+        }
+
+        .boxFour {
+            @include boxTypeOne;
+            & h3{
+                padding: 10px;
+            }
+        
+            & p{
+                padding: 10px;
+            }
+        }
+
+        & button {
+            float: right;
+            margin-right: 5px;
+            margin-top: 10px;
+            border: none;
+            background-color: whitesmoke;
+            width: 30px;
+            cursor: pointer;
+        }
+
+    }    
+
+}
+
+.container-four{
+    @include container;
+
+    #featureTwoPicInConFour {
+        width: 30%;
+        float: right;
+        margin-top: 200px;
+        margin-right: 40px;
+    } 
+
+    .headerAndParagraphFour {
+        display: inline-block;
+        width: 50%;
+        margin-left: 95px;
+        padding-top: 150px;
+
+        & h1 {
+            padding-top: 30px;
+            @include headerOne;
+        }
+
+        & p {
+            @include paragraphInContainer;
+        }
+
+    }
+
+    .boxes {
+        display: block;
+        width: 70%;
+        margin-top: 50px;
+        margin-left: 80px;
+
+        .boxOne {
+            @include boxTypeOne;
+
+            & h3{
+                padding: 10px;
+            }
+        
+            & p{
+                padding: 10px;
+            }
+        }
+
+        .boxTwo {
+            @include boxTypeOne;
+
+            & h3{
+                padding: 10px;
+            }
+        
+            & p{
+                padding: 10px;
+            }
+        }
+
+        .boxThree {
+            @include boxTypeOne;
+            & h3{
+                padding: 10px;
+            }
+        
+            & p{
+                padding: 10px;
+            }
+        }
+
+        & button {
+            float: right;
+            margin-right: 5px;
+            margin-top: 10px;
+            border: none;
+            background-color: whitesmoke;
+            width: 30px;
+            cursor: pointer;
+        }
+
+    }
+}
+
+.container-five {
+    @include container;
+
+    #headerInContainerFive {
+        margin-left: 32%;
+        padding-top: 100px;
+        @include headerOne;
+    }
+
+    .pricePlanBoxes {
+        display: block;
+        width: 100%;
+        margin-top: 100px;
+
+        .pricePlanBoxOne {
+            margin-bottom: 100px;
+            border: 1px solid $color-basic-plan;
+            @include pricePlanBox;
+         
+            .imgPlanPrice {
+                width: 30px;
+            }
+
+            #basicSpan {
+                font-size: 1.4rem;
+                color: $text-color;
+            }
+
+            h3 {
+                font-size: 2rem;
+                padding-top: 5px;
+                color: #1a1a1a;
+            }
+
+            .paragraphInCapitalLettersInPricing {
+                @include paragraphInCapitalLetters;
+            }
+
+            .contentBasicPlan {
+                @include contentInPlanPricing;
+
+                .btnPlans {
+                    @include btnInPricingPlans;
+                    color: $text-color;
+                    border: 1px solid $color-basic-plan;
+                }
+            }
+
+        }
+
+        .pricePlanBoxTwo {
+            border: 1px solid $color-premium-plan;
+            @include pricePlanBox;
+
+            .imgPlanPrice {
+                width: 30px;
+            }
+
+            #premium {
+                font-size: 1.4rem;
+                color: $color-premium-plan;
+            }
+
+            .pricing {
+                @include pricing;
+            }
+
+            .paragraphInCapitalLettersInPricing {
+                @include paragraphInCapitalLetters;
+            }
+
+            .contentBasicPlan {
+                @include contentInPlanPricing;
+
+                .btnPlans {
+                    @include btnInPricingPlans;
+                    color: white;
+                    border: 1px solid $color-premium-plan;
+                    background-color: $background-btn-premium;
+
+                }
+            }
+        }
+
+        .pricePlanBoxThree {
+            display: inline-block;
+            border: 1px solid $color-business-plan;
+            @include pricePlanBox;
+    
+            .imgPlanPrice {
+                width: 30px;
+            }
+    
+            #business {
+                font-size: 1.4rem;
+                color: $color-business-plan;
+            }
+    
+            .pricingBusiness {
+                @include pricing
+            }
+    
+            .paragraphInCapitalLettersInPricing {
+                @include paragraphInCapitalLetters;
+            }
+    
+            .contentBasicPlan {
+                @include contentInPlanPricing;
+    
+                .btnPlans {
+                    @include btnInPricingPlans;
+                    color: white;
+                    border: 1px solid $color-business-plan;
+                    background-color: $color-business-plan;
+    
+                }
+            }
+        }
+    }
+
+
+}
+
+footer {
+    width: 100%;
+    background-color: $text-color;
+
+    small {
+        color: white;
+        font-weight: 100;
+        margin-left: 40%;
+    }
+}
+
+
+
+
+
+

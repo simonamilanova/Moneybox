@@ -1,0 +1,688 @@
+@media screen and (max-width: 400px) {
+  section h3 {
+    font-size: 0.6rem;
+  }
+  div.boxOne p, div.boxTwo p, div.boxThree p, div.boxFour p {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  body #menuIcon {
+    visibility: visible !important;
+  }
+  body #logoImg {
+    width: 140px !important;
+  }
+  .getStarted {
+    visibility: hidden;
+  }
+  .nav-link {
+    visibility: hidden;
+  }
+}
+
+.main-header {
+  width: 100%;
+  height: 65px;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+}
+
+.main-header #logoImg {
+  width: 15%;
+  margin-left: 40px;
+  margin-top: 5px;
+}
+
+.main-header #menuIcon {
+  margin-top: 15px;
+  visibility: hidden;
+  float: right;
+}
+
+.main-header .nav-links {
+  display: block;
+  float: right;
+  margin-top: 15px;
+}
+
+.main-header .nav-links .nav-link {
+  display: inline;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.main-header .nav-links .nav-link a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.main-header .nav-links a:hover {
+  color: #00c2b5;
+}
+
+.main-header #getStarted {
+  height: 37px;
+  width: 100px;
+  background: #00c2b5;
+  border: none;
+  border-radius: 5px;
+  color: #333333;
+}
+
+.main-header #getStarted:hover {
+  color: whitesmoke;
+  background: rgba(0, 194, 181, 0.7);
+}
+
+.main-header.scrolled {
+  background-color: rgba(242, 242, 242, 0.9);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #00c2b5;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #444444;
+}
+
+.container-one {
+  display: block;
+  width: 100%;
+}
+
+.container-one .textIntro {
+  display: block;
+  width: 45%;
+  margin-top: 100px;
+  margin-left: 30%;
+}
+
+.container-one .textIntro h1 {
+  letter-spacing: 1px;
+  padding: 15px;
+  margin: 5px;
+  font-size: 2rem;
+  color: #333333;
+}
+
+.container-one .textIntro p {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  padding: 5px;
+  margin-left: 90px;
+  color: #333333;
+}
+
+.container-one .checkboxes {
+  display: block;
+  width: 60%;
+  margin-top: 40px;
+  margin-left: 25%;
+}
+
+.container-one .checkboxes .inputs {
+  display: inline-block;
+  background-color: #e6e6e6;
+  width: 210px;
+  height: 40px;
+  margin: 8px;
+  border-radius: 10px;
+}
+
+.container-one .checkboxes .inputs input {
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+.container-one .checkboxes .inputs label {
+  margin-top: 40px;
+}
+
+.container-one .btnGetStarted {
+  width: 150px;
+  height: 50px;
+  letter-spacing: 2px;
+  margin-left: 45%;
+  margin-top: 50px;
+  font-size: 0.9rem;
+  background: #00c2b5;
+  border: none;
+  border-radius: 5px;
+  color: #333333;
+}
+
+.container-one .btnGetStarted:hover {
+  color: whitesmoke;
+  background: rgba(0, 194, 181, 0.7);
+}
+
+.container-one #pictureHero {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.container-two {
+  display: block;
+  background-color: #f4ede3;
+  width: 100%;
+}
+
+.container-two .headerAndParagraph {
+  display: block;
+  width: 50%;
+  margin-left: 95px;
+}
+
+.container-two .headerAndParagraph h1 {
+  padding-top: 30px;
+  padding-left: 5px;
+  letter-spacing: 2px;
+  font-size: 1.6rem;
+  color: #333333;
+}
+
+.container-two .headerAndParagraph p {
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.container-two #featurePic {
+  width: 30%;
+  float: right;
+}
+
+.container-two .boxes {
+  display: block;
+  width: 70%;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.container-two .boxes .boxOne {
+  margin: 20px;
+  display: inline-block;
+  width: 35%;
+  background-color: whitesmoke;
+  color: #333333;
+}
+
+.container-two .boxes .boxOne h3 {
+  padding: 10px;
+}
+
+.container-two .boxes .boxOne p {
+  padding: 10px;
+}
+
+.container-two .boxes .boxTwo {
+  margin: 20px;
+  display: inline-block;
+  width: 35%;
+  background-color: whitesmoke;
+  color: #333333;
+}
+
+.container-two .boxes .boxTwo h3 {
+  padding: 10px;
+}
+
+.container-two .boxes .boxTwo p {
+  padding: 10px;
+}
+
+.container-two .boxes .boxThree {
+  margin: 20px;
+  display: inline-block;
+  width: 35%;
+  background-color: whitesmoke;
+  color: #333333;
+}
+
+.container-two .boxes .boxThree h3 {
+  padding: 10px;
+}
+
+.container-two .boxes .boxThree p {
+  padding: 10px;
+}
+
+.container-two .boxes .boxFour {
+  margin: 20px;
+  display: inline-block;
+  width: 35%;
+  background-color: whitesmoke;
+  color: #333333;
+}
+
+.container-two .boxes .boxFour h3 {
+  padding: 10px;
+}
+
+.container-two .boxes .boxFour p {
+  padding: 10px;
+}
+
+.container-two .boxes button {
+  float: right;
+  margin-right: 5px;
+  margin-top: 10px;
+  border: none;
+  background-color: whitesmoke;
+  width: 30px;
+  cursor: pointer;
+}
+
+.container-three {
+  display: block;
+  background-color: #f4ede3;
+  width: 100%;
+}
+
+.container-three .headerAndParagraphThree {
+  display: block;
+  width: 55%;
+  margin-left: 41%;
+  padding-top: 180px;
+}
+
+.container-three .headerAndParagraphThree h1 {
+  padding-left: 5px;
+  letter-spacing: 2px;
+  font-size: 1.6rem;
+  color: #333333;
+}
+
+.container-three .headerAndParagraphThree p {
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.container-three #featureTwoPic {
+  width: 30%;
+  float: left;
+  margin-top: 200px;
+}
+
+.container-three .boxes {
+  display: block;
+  width: 60%;
+  margin-left: 40%;
+  margin-top: 50px;
+}
+
+.container-three .boxes .boxOne {
+  margin: 20px;
+  display: inline-block;
+  width: 35%;
+  background-color: whitesmoke;
+  color: #333333;
+}
+
+.container-three .boxes .boxOne h3 {
+  padding: 10px;
+}
+
+.container-three .boxes .boxOne p {
+  padding: 10px;
+}
+
+.container-three .boxes .boxTwo {
+  margin: 20px;
+  display: inline-block;
+  width: 35%;
+  background-color: whitesmoke;
+  color: #333333;
+}
+
+.container-three .boxes .boxTwo h3 {
+  padding: 10px;
+}
+
+.container-three .boxes .boxTwo p {
+  padding: 10px;
+}
+
+.container-three .boxes .boxThree {
+  margin: 20px;
+  display: inline-block;
+  width: 35%;
+  background-color: whitesmoke;
+  color: #333333;
+}
+
+.container-three .boxes .boxThree h3 {
+  padding: 10px;
+}
+
+.container-three .boxes .boxThree p {
+  padding: 10px;
+}
+
+.container-three .boxes .boxFour {
+  margin: 20px;
+  display: inline-block;
+  width: 35%;
+  background-color: whitesmoke;
+  color: #333333;
+}
+
+.container-three .boxes .boxFour h3 {
+  padding: 10px;
+}
+
+.container-three .boxes .boxFour p {
+  padding: 10px;
+}
+
+.container-three .boxes button {
+  float: right;
+  margin-right: 5px;
+  margin-top: 10px;
+  border: none;
+  background-color: whitesmoke;
+  width: 30px;
+  cursor: pointer;
+}
+
+.container-four {
+  display: block;
+  background-color: #f4ede3;
+  width: 100%;
+}
+
+.container-four #featureTwoPicInConFour {
+  width: 30%;
+  float: right;
+  margin-top: 200px;
+  margin-right: 40px;
+}
+
+.container-four .headerAndParagraphFour {
+  display: inline-block;
+  width: 50%;
+  margin-left: 95px;
+  padding-top: 150px;
+}
+
+.container-four .headerAndParagraphFour h1 {
+  padding-top: 30px;
+  padding-left: 5px;
+  letter-spacing: 2px;
+  font-size: 1.6rem;
+  color: #333333;
+}
+
+.container-four .headerAndParagraphFour p {
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.container-four .boxes {
+  display: block;
+  width: 70%;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.container-four .boxes .boxOne {
+  margin: 20px;
+  display: inline-block;
+  width: 35%;
+  background-color: whitesmoke;
+  color: #333333;
+}
+
+.container-four .boxes .boxOne h3 {
+  padding: 10px;
+}
+
+.container-four .boxes .boxOne p {
+  padding: 10px;
+}
+
+.container-four .boxes .boxTwo {
+  margin: 20px;
+  display: inline-block;
+  width: 35%;
+  background-color: whitesmoke;
+  color: #333333;
+}
+
+.container-four .boxes .boxTwo h3 {
+  padding: 10px;
+}
+
+.container-four .boxes .boxTwo p {
+  padding: 10px;
+}
+
+.container-four .boxes .boxThree {
+  margin: 20px;
+  display: inline-block;
+  width: 35%;
+  background-color: whitesmoke;
+  color: #333333;
+}
+
+.container-four .boxes .boxThree h3 {
+  padding: 10px;
+}
+
+.container-four .boxes .boxThree p {
+  padding: 10px;
+}
+
+.container-four .boxes button {
+  float: right;
+  margin-right: 5px;
+  margin-top: 10px;
+  border: none;
+  background-color: whitesmoke;
+  width: 30px;
+  cursor: pointer;
+}
+
+.container-five {
+  display: block;
+  background-color: #f4ede3;
+  width: 100%;
+}
+
+.container-five #headerInContainerFive {
+  margin-left: 32%;
+  padding-top: 100px;
+  padding-left: 5px;
+  letter-spacing: 2px;
+  font-size: 1.6rem;
+  color: #333333;
+}
+
+.container-five .pricePlanBoxes {
+  display: block;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxOne {
+  margin-bottom: 100px;
+  border: 1px solid #737373;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  width: 20%;
+  margin-left: 100px;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxOne .imgPlanPrice {
+  width: 30px;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxOne #basicSpan {
+  font-size: 1.4rem;
+  color: #333333;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxOne h3 {
+  font-size: 2rem;
+  padding-top: 5px;
+  color: #1a1a1a;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxOne .paragraphInCapitalLettersInPricing {
+  color: #333333;
+  font-size: 0.9rem;
+  padding-top: 5px;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxOne .contentBasicPlan {
+  padding-top: 10px;
+  line-height: 50px;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxOne .contentBasicPlan .btnPlans {
+  padding-top: 5px;
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 15px;
+  cursor: pointer;
+  color: #333333;
+  border: 1px solid #737373;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxTwo {
+  border: 1px solid #cc0000;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  width: 20%;
+  margin-left: 100px;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxTwo .imgPlanPrice {
+  width: 30px;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxTwo #premium {
+  font-size: 1.4rem;
+  color: #cc0000;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxTwo .pricing {
+  font-size: 2rem;
+  padding-top: 5px;
+  color: #1a1a1a;
+  font-weight: bold;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxTwo .paragraphInCapitalLettersInPricing {
+  color: #333333;
+  font-size: 0.9rem;
+  padding-top: 5px;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxTwo .contentBasicPlan {
+  padding-top: 10px;
+  line-height: 50px;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxTwo .contentBasicPlan .btnPlans {
+  padding-top: 5px;
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 15px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid #cc0000;
+  background-color: #4ba441;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxThree {
+  display: inline-block;
+  border: 1px solid #1a1a1a;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  width: 20%;
+  margin-left: 100px;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxThree .imgPlanPrice {
+  width: 30px;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxThree #business {
+  font-size: 1.4rem;
+  color: #1a1a1a;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxThree .pricingBusiness {
+  font-size: 2rem;
+  padding-top: 5px;
+  color: #1a1a1a;
+  font-weight: bold;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxThree .paragraphInCapitalLettersInPricing {
+  color: #333333;
+  font-size: 0.9rem;
+  padding-top: 5px;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxThree .contentBasicPlan {
+  padding-top: 10px;
+  line-height: 50px;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxThree .contentBasicPlan .btnPlans {
+  padding-top: 5px;
+  width: 80%;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 15px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid #1a1a1a;
+  background-color: #1a1a1a;
+}
+
+footer {
+  width: 100%;
+  background-color: #333333;
+}
+
+footer small {
+  color: white;
+  font-weight: 100;
+  margin-left: 40%;
+}
+/*# sourceMappingURL=mainStyle.css.map */
