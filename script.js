@@ -40,16 +40,16 @@ $(document).ready(function () {
     $.ajax ({
       url: baseUrl2,
       success: function (response) {
-        if(response.continent_name === "Europe") {
-          businessVal.textContent = "€";
-          premiumVal.textContent = "€";
-        } else if (response.country_code === "GBR" && response.continent_name === "Europe") {
-          businessVal.textContent = "£ ";
-          premiumVal.textContent = "£ ";
+        if (response.country_code === "GBR" && response.continent_name === "Europe") {
+          businessVal.textContent = "£";
+          premiumVal.textContent = "£";
+        } else if(response.continent_name === "Europe") {
+            businessVal.textContent = "€";
+            premiumVal.textContent = "€";
         } else {
-          businessVal.textContent = "$";
-          premiumVal.textContent = "$";
-        }
+            businessVal.textContent = "$";
+            premiumVal.textContent = "$";
+          }
       },
       error: function (error) {
         console.error("Something went wrong");
