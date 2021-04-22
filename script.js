@@ -34,7 +34,6 @@ $(document).ready(function () {
   let baseUrl2 = "http://api.ipstack.com/77.28.14.118?access_key=ad5de90628b7cd643ce58de917cdf4fe";
   let premiumVal = document.getElementById("premiumValue");
   let businessVal = document.getElementById("businessValue");
-  let element = $(".contentBasicPlan");
 
   window.addEventListener("load", () => {
     $.ajax ({
@@ -57,6 +56,7 @@ $(document).ready(function () {
     })
   })
 
+  let element = $(".contentBasicPlan");
   $(window).resize(function() {
     if ($(window).width() < 400) {
       $(element).hide();
@@ -67,6 +67,8 @@ $(document).ready(function () {
   });
 
 });
+
+
 
 
 
