@@ -574,6 +574,19 @@
   border: 1px solid #737373;
 }
 
+.container-five .pricePlanBoxes .pricePlanBoxOne #btnArrowOne {
+  width: 25%;
+  background: #00c2b5;
+  border: none;
+  border-radius: 5px;
+  color: #333333;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxOne #btnArrowOne:hover {
+  color: whitesmoke;
+  background: rgba(0, 194, 181, 0.7);
+}
+
 .container-five .pricePlanBoxes .pricePlanBoxTwo {
   border: 1px solid #cc0000;
   display: inline-block;
@@ -622,6 +635,19 @@
   color: white;
   border: 1px solid #cc0000;
   background-color: #4ba441;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxTwo #btnArrowTwo {
+  width: 25%;
+  background: #00c2b5;
+  border: none;
+  border-radius: 5px;
+  color: #333333;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxTwo #btnArrowTwo:hover {
+  color: whitesmoke;
+  background: rgba(0, 194, 181, 0.7);
 }
 
 .container-five .pricePlanBoxes .pricePlanBoxThree {
@@ -673,6 +699,19 @@
   color: white;
   border: 1px solid #1a1a1a;
   background-color: #1a1a1a;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxThree #btnArrowThree {
+  width: 25%;
+  background: #00c2b5;
+  border: none;
+  border-radius: 5px;
+  color: #333333;
+}
+
+.container-five .pricePlanBoxes .pricePlanBoxThree #btnArrowThree:hover {
+  color: whitesmoke;
+  background: rgba(0, 194, 181, 0.7);
 }
 
 footer {

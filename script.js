@@ -57,15 +57,43 @@ $(document).ready(function () {
   })
 
   let element = $(".contentBasicPlan");
+  let btnArrowOne = $("#btnArrowOne");
+  let btnArrowTwo = $("#btnArrowTwo");
+  let btnArrowThree = $("#btnArrowThree");
+
+  let contentPlanOne = $("#planOne");
+  let contentPlanTwo = $("#planTwo");
+  let contentPlanThree = $("#planThree");
   $(window).resize(function() {
     if ($(window).width() < 400) {
       $(element).hide();
+      $(btnArrowOne).show();
+      $(btnArrowTwo).show();
+      $(btnArrowThree).show();
 
     } else if ($(window).width() > 1000) {
       $(element).show();
+      $(btnArrowOne).hide();
+      $(btnArrowTwo).hide();
+      $(btnArrowThree).hide();
     }
   });
 
+  $(btnArrowOne).click(function(){
+    $(contentPlanOne).toggle()
+  })
+
+  $(btnArrowTwo).click(function(){
+    $(contentPlanTwo).toggle()
+  })
+
+  $(btnArrowThree).click(function(){
+    $(contentPlanThree).toggle()
+  })
+
+  
+
+  
 });
 
 

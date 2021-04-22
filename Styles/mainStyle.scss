@@ -405,6 +405,11 @@
                 }
             }
 
+            #btnArrowOne {
+                width: 25%;
+                @include btnGetStarted;
+            }
+
         }
 
         .pricePlanBoxTwo {
@@ -438,6 +443,11 @@
                     background-color: $background-btn-premium;
 
                 }
+            }
+
+            #btnArrowTwo {
+                width: 25%;
+                @include btnGetStarted;
             }
         }
 
@@ -473,6 +483,11 @@
                     background-color: $color-business-plan;
     
                 }
+            }
+
+            #btnArrowThree {
+                width: 25%;
+                @include btnGetStarted;
             }
         }
     }
